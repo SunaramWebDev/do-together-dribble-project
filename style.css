@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+    font-family: "Salsa", system-ui;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+}
+
+nav{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+#nav-logo h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#nav-logo .ri-bubble-chart-fill{
+    font-size: 32px;
+    color: red;
+}
+
+#nav-content{
+    display: flex;
+    gap: 70px;
+}
+
+#nav-content a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+#nav-buttom{
+    border: 2px solid black;
+    background-color: #f44336;
+    padding: 10px 20px;
+    transition: ease-out 0.2s;
+}
+
+#nav-buttom:hover{
+    background-color: #e6dfdf;
+    
+
+}
+#nav-buttom h4{
+    color: #fff;
+    font-weight: 400;
+}
+
+#main-content{
+    width: 100%;
+    height: 90%;
+    display: flex;
+}
+
+#main-left{
+    width: 40%;
+    height: 100%;
+}
+
+.content-item-one{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.content-item-one h1{
+    padding-left: 30px;
+    font-size: 4.6vw;
+}
+
+.content-item-two{
+    width: 100%;
+    height: 30%;
+    padding: 20px 30px;
+}
+
+.content-item-two p{
+    font-size: 20px;
+    color: #767171;
+}
+.heading-one{
+    font-size: 40px;
+    
+}
+
+.content-item-two button{
+    padding: 12px;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.content-item-two #btn-one{
+    background-color: #f44336;
+    color: #fff;
+}
+
+
+
+.content-item-two #btn-two{
+    color: black;
+}
+
+.content-item-three{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+#main-right{
+    width: 60%;
+    height: 100%;
+    background-color: blue;
+}
+
+.paragraph-one{
+    text-align: center;
+    line-height: 42px;
+}
+
+#main-right{
+    background: url(img.jpg);
+    background-repeat: no-repeat;
+    background-size: contain ;
+}
+
